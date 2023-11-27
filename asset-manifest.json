@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/unviersty/static/css/main.940e3248.css",
+    "main.js": "/unviersty/static/js/main.87f12ec2.js",
+    "static/js/787.0a4442fe.chunk.js": "/unviersty/static/js/787.0a4442fe.chunk.js",
+    "static/media/about.jpg": "/unviersty/static/media/about.0f0094b950903743f79f.jpg",
+    "static/media/slid4.jpg": "/unviersty/static/media/slid4.64d3c97792e3f3da3e60.jpg",
+    "static/media/slid5.jpg": "/unviersty/static/media/slid5.92b155c139a2de6f3c5a.jpg",
+    "static/media/slid.jpg": "/unviersty/static/media/slid.820d131edc371c714d73.jpg",
+    "static/media/slid3.jpg": "/unviersty/static/media/slid3.fafa7430b78f6dc2251c.jpg",
+    "static/media/slid1.jpg": "/unviersty/static/media/slid1.aef53667f71e11a4d949.jpg",
+    "static/media/slid2.jpg": "/unviersty/static/media/slid2.900168728abede5c4b75.jpg",
+    "static/media/home.jpg": "/unviersty/static/media/home.6d7231224965ac7a243f.jpg",
+    "static/media/equinix.png": "/unviersty/static/media/equinix.236399b3ed670db792cf.png",
+    "static/media/tower.png": "/unviersty/static/media/tower.cc77e18f59771c7ad75b.png",
+    "static/media/prologis.png": "/unviersty/static/media/prologis.e1c1031f09a0b81f98d9.png",
+    "static/media/realty.png": "/unviersty/static/media/realty.11971af17bb2cc252199.png",
+    "index.html": "/unviersty/index.html",
+    "main.940e3248.css.map": "/unviersty/static/css/main.940e3248.css.map",
+    "main.87f12ec2.js.map": "/unviersty/static/js/main.87f12ec2.js.map",
+    "787.0a4442fe.chunk.js.map": "/unviersty/static/js/787.0a4442fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940e3248.css",
+    "static/js/main.87f12ec2.js"
+  ]
+}
