@@ -1,0 +1,104 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  padding: 0 3rem;
+  background: #131110;
+  color: white;
+  z-index: 200;
+  box-shadow: 1px 2px 6px rgb(50, 50, 50);
+}
+.logo {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    font-size: 18px;
+}
+nav a:hover {
+    border-bottom:1px solid orange;
+    color: orange;
+}
+.btn-close {
+    display: none;
+  font-size: 26px;
+  font-weight: bold;
+  transition: var(--transition);
+  outline: 0;
+  border: 0;
+  color: red;
+  background: transparent;
+  cursor: pointer;
+}
+.btn-close:hover {
+    transform: rotate(35deg);
+}
+.btn-bar {
+  display: none;
+  font-size: 28px;
+  font-weight: bold;
+  transition: var(--transition);
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  background: transparent;
+}
+.btn-bar:hover {
+    color: rgb(95, 95, 255);
+}
+
+
+@media screen and (max-width:650px) {
+    .btn-bar {
+        display: block;
+    }
+    .btn-close {
+        display: block;
+    }
+    nav {
+        position: fixed;
+        top: 2.6rem;
+        border-radius: 3rem 0 0 3rem;
+        right: 0rem;
+        height: 45%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        background: skyblue;
+        transition:all  1s ease;
+        transform: translateX(55vh);
+        padding: 1rem ;
+    }
+    header .mobil {
+        transform: none;
+    }
+    .btn-close {
+        position: absolute;
+        top: 0.7rem;
+        right: 0.8rem;
+    }
+    nav a{
+        border-bottom: 1px solid transparent;
+        font-size: 18px;
+    }
+    nav a:hover {
+        border-bottom:1px solid black;
+        color: black;
+    }
+  } 

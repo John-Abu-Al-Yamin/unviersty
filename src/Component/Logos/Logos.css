@@ -1,0 +1,14 @@
+
+
+.logos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.logos-container img {
+    width: 10rem;
+    border-radius: 1.3rem;
+}
+

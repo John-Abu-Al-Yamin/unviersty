@@ -1,0 +1,154 @@
+.main-home {
+  background: #131110;
+  color: white;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+.home-container {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.orange-c {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background: orange;
+  border-radius: 50%;
+  top: -2rem;
+  left: 10rem;
+  z-index: -2;
+}
+.image-container {
+  width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%;
+  border-radius: 15rem 15rem 0rem 0rem;
+
+  /*======================left==================*/
+}
+
+.home-des {
+  display: flex;
+  flex-direction: column;
+}
+.home-title {
+  position: relative;
+  z-index: 1;
+}
+.home-title h1 {
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+}
+
+.serach-bar {
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: min-content;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  
+  margin: 1rem auto;
+}
+.serach-bar input {
+  font-size: 18px;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0 1.5rem;
+}
+.serach-bar svg {
+  color: blue;
+  font-size: 22px;
+}
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+.count {
+  padding: 0 0.3rem;
+  text-align: center;
+}
+
+.stat>:nth-child(1) {
+    font-size: 1.8rem;
+}
+
+/* ========================== */
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+ 
+  .image-container {
+    width: 17rem;
+    height: 22rem;
+    overflow: hidden;
+  }
+  .image-container img {
+    border-radius: 10rem 10rem 0 0;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 758px) {
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .image-container {
+    width: 19rem;
+    height: 24rem;
+    overflow: hidden;
+  }
+  .image-container img {
+    border-radius: 10rem 10rem 0 0;
+  }
+  .h-left {
+    margin-top: 3rem;
+    text-align: center;
+    
+  }
+  .home-title h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .serach-bar {
+    
+    padding: 0.5rem;
+    border-radius: 1.4rem;
+  }
+  .serach-bar input {
+    padding: 0 0.5rem;
+  }
+}
